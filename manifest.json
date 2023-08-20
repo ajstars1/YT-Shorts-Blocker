@@ -1,15 +1,24 @@
 {
     "manifest_version": 3,
     "name": "YouTube Shorts Blocker",
-    "version": "1.0",
-    "description": "Blocks YouTube Shorts pages.",
-    "permissions": ["activeTab","webNavigation","scripting"],
+    "version": "0.2",
+    "description": "Blocks YouTube Shorts pages and don't let you distract from your work or study. This extension is open source and you can contribute to it on GitHub.",
+    "permissions": ["webNavigation","scripting"],
+    "host_permissions": [
+      "https://www.youtube.com/shorts/*"
+  ],
     "icons": {
-        "128": "assests/ShortsBLOCK_128.png",
-        "48": "assests/ShortsBLOCK_48.png"
+        "128": "assests/icon_128.png",
+        "48": "assests/icon_48.png",
+        "32": "assests/icon_32.png",
+        "16": "assests/icon_16.png"
     },
     "action": {
-      "default_icon": "assests/ShortsBLOCK_128.png"
+      "default_icon": {
+      "16": "assests/icon-16.png",
+      "32": "assests/icon-32.png",
+      "48": "assests/icon-48.png",
+      "128": "assests/icon-128.png"}
     },
     "background": {
       "service_worker": "service-worker.js",
