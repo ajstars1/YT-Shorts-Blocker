@@ -40,10 +40,6 @@ Contributions to the YouTube Shorts Blocker extension are welcome! If you have s
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
-
-- Icon made by [Author](Link) from [www.flaticon.com](https://www.flaticon.com/).
-
 ---
 
 *Disclaimer: The YouTube Shorts Blocker extension is not affiliated with YouTube or its parent company in any way. It is a third-party tool created by developers to enhance productivity.*
