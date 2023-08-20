@@ -1,11 +1,16 @@
 const shortsURL = 'https://www.youtube.com/shorts/';
 let extensionStatus = 'ON';
-
+let statusColor = '#777';
 function toggleExtensionStatus(tabId) {
   extensionStatus = extensionStatus === 'ON' ? 'OFF' : 'ON';
+  statusColor = extensionStatus === 'ON' ? '#777' : '#FF0000';
   chrome.action.setBadgeText({
     tabId,
     text: extensionStatus,
+  });
+  chrome.action.setBadgeBackgroundColor({
+    tabId,
+    color: statusColor,
   });
 }
 
@@ -31,5 +36,8 @@ chrome.webNavigation.onHistoryStateUpdated.addListener((details) => {
 chrome.runtime.onInstalled.addListener(() => {
   chrome.action.setBadgeText({
     text: extensionStatus,
+  });
+   chrome.action.setBadgeBackgroundColor({
+    color: statusColor,
   });
 });
