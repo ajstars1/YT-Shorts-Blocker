@@ -15,10 +15,10 @@
     },
     "action": {
       "default_icon": {
-      "16": "assests/icon-16.png",
-      "32": "assests/icon-32.png",
-      "48": "assests/icon-48.png",
-      "128": "assests/icon-128.png"}
+      "16": "assests/icon_16.png",
+      "32": "assests/icon_32.png",
+      "48": "assests/icon_48.png",
+      "128": "assests/icon_128.png"}
     },
     "background": {
       "service_worker": "service-worker.js",
