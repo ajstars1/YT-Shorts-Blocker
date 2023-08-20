@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "YouTube Shorts Blocker",
-    "version": "0.2",
+    "version": "0.3",
     "description": "Blocks YouTube Shorts pages and don't let you distract from your work or study. This extension is open source and you can contribute to it on GitHub.",
     "permissions": ["webNavigation","scripting"],
     "host_permissions": [
