@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Shorts Blocker",
+    "version": "1.0",
+    "description": "Blocks YouTube Shorts pages.",
+    "permissions": ["activeTab","webNavigation","scripting"],
+    "icons": {
+        "128": "assests/ShortsBLOCK_128.png",
+        "48": "assests/ShortsBLOCK_48.png"
+    },
+    "action": {
+      "default_icon": "assests/ShortsBLOCK_128.png"
+    },
+    "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
+    }
+  }
+  
